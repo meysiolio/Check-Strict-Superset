@@ -6,19 +6,19 @@ Print True, if ***`A`*** is a strict superset of each of the ***`N`*** sets. Oth
 A strict superset has at least one element that does not exist in its subset.  
 
 **Example**
-***`Set([1,3,4])`*** is a strict superset of ***`Set([1,3])`***.
-***`Set([1,3,4])`*** is not a strict superset of ***`Set([1,3,4])`***.
-***`Set([1,3,4])`*** is not a strict superset of ***`Set([1,3,5])`***.
+***`Set([1,3,4])`*** is a strict superset of ***`Set([1,3])`***.  
+***`Set([1,3,4])`*** is not a strict superset of ***`Set([1,3,4])`***.  
+***`Set([1,3,4])`*** is not a strict superset of ***`Set([1,3,5])`***.  
 
 **Input Format**
 
-The first line contains the space separated elements of set `A`.
-The second line contains integer `n`, the number of other sets.
-The next `n` lines contains the space separated elements of the other sets.
+The first line contains the space separated elements of set `A`.  
+The second line contains integer `n`, the number of other sets.  
+The next `n` lines contains the space separated elements of the other sets.  
 
 **Output Format**
 
-Print True if set `A` is a strict superset of all other `N` sets. Otherwise, print False.
+Print True if set `A` is a strict superset of all other `N` sets. Otherwise, print False.  
 
 **Sample Input**
 ```
@@ -33,5 +33,5 @@ False
 ```
 **Explanation**
 
-Set `A` is the strict superset of the ***`Set([1,2,3,4,5])`*** but not of the ***`Set([100,11,12])`*** because `100` is not in set `A`.
+Set `A` is the strict superset of the ***`Set([1,2,3,4,5])`*** but not of the ***`Set([100,11,12])`*** because `100` is not in set `A`.  
 Hence, the output is False.
